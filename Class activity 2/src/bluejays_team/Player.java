@@ -35,7 +35,7 @@ public class Player {
         System.out.println("Player: " + name + " | Age: " + age + " | Position: " + position);
     }
 
-    // Static method (can be called without an instance)
+    // Static method = can be called without an instance
     public static void teamMotto() {
         System.out.println("Toronto Blue Jays: Always Aim for the Sky!");
     }
