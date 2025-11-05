@@ -1,0 +1,5 @@
+=== Blue Jays Season Stats ===
+Team: Toronto Blue Jays
+Wins: 89
+Losses: 73
+Winning Percentage: 54.9
