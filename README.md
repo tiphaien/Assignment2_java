@@ -5,7 +5,7 @@ This project demonstrates key **Object-Oriented Programming (OOP)** principles a
 
 It is divided into two main packages:
 1. **`bluejays_team`** → Demonstrates core OOP features (*inheritance, polymorphism, encapsulation, static methods*)
-2. **`bluejays_stats`** → Demonstrates team management concepts (*interfaces, ArrayList, file handling, exceptions*)
+2. **`bluejays_stats`** → Demonstrates team management concepts (*interfaces, file handling, exceptions*)
 
 
 ##  Learning Objectives
