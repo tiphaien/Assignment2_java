@@ -9,11 +9,11 @@ public class TeamManager implements TeamOperations {
     private int totalWins;
     private int totalLosses;
 
-    public TeamManager(String teamName, int wins, int losses) {
-        this.teamName = teamName;
-        this.totalWins = wins;
-        this.totalLosses = losses;
-    }
+    public void displayTeamStats() {
+        System.out.println("Team: " + teamName);
+        System.out.println("Wins: " + totalWins);
+        System.out.println("Losses: " + totalLosses);
+        System.out.printf("Winning Percentage: %.2f%%\n", getWinningPercentage());}
 
     public void displayTeamStats() {
         System.out.println("Team: " + teamName + " | Wins: " + totalWins + " | Losses: " + totalLosses);
@@ -41,3 +41,4 @@ public class TeamManager implements TeamOperations {
         return totalGames==0 ? 0.0 : (double) totalWins / totalGames * 100;
     }
 }
+
