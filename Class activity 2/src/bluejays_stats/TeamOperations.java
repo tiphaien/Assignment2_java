@@ -1,4 +1,6 @@
 package bluejays_stats;
 
-public class TeamOperations {
+public interface TeamOperations {
+    void saveStatsToFile(String filename);
+    void displayTeamStats();
 }
