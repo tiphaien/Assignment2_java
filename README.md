@@ -22,7 +22,8 @@ The goal of this lab is to:
 Demonstrates the main **Object-Oriented Programming (OOP)** principles through examples based on the Toronto Blue Jays players.
 
 - **`Player.java`** → Superclass containing shared attributes and methods *(encapsulation, constructors, static method)*  
-- **`Pitcher.java`** → Subclass extending `Player` and redefining one method *(inheritance, polymorphism)*  
+- **`Pitcher.java`** → Subclass extending `Player` and redefining one method *(inheritance, polymorphism)*
+- **`Batter`** → another subclass extending `Player` with its own attributes and behavior
 - **`BlueJaysApp.java`** → Main class creating objects and calling methods *(includes try/catch example)*  
 
 
