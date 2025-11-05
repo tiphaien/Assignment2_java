@@ -29,4 +29,13 @@ public class Batter extends Player {
     public void showBatterStats() {
         System.out.println("Home Runs: " + homeRuns + " | Batting Average: " + battingAverage);
     }
+
+    public int getHomeRuns() {
+        return homeRuns;
+    }
+
+    public double getBattingAverage() {
+        return battingAverage;
+    }
+
 }
