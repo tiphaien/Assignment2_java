@@ -9,8 +9,6 @@ public class StatsApp {
             tm.displayTeamStats();
 
             tm.saveStatsToFile("bluejays_stats.txt");
-            
-            System.out.println("Total Games: " + tm.getTotalGames());
 
         } catch (Exception e) {
             System.err.println("Error in StatsApp: " + e.getMessage());
@@ -18,5 +16,6 @@ public class StatsApp {
         }
     }
 }
+
 
 
