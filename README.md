@@ -18,20 +18,6 @@ The goal of this lab is to:
 - Read from and write to **text files** using the Java I/O package (*FileReader, FileWriter, BufferedReader, BufferedWriter*)
 - Organize the project into clear **packages and entry points**
 
-
-##  Project Structure
-Java-Assignment2/
-└── src/
-  ├── bluejays_team/
-     ├── Player.java
-     ├── Pitcher.java
-     └── BlueJaysApp.java
- └── bluejays_stats/
-     ├── TeamOperation.java
-     ├── TeamManager.java
-     └── StatsApp.java
-
-
 ##  Package 1: `bluejays_team`
 Demonstrates the main **Object-Oriented Programming (OOP)** principles through examples based on the Toronto Blue Jays players.
 
