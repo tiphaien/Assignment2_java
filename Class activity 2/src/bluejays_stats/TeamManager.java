@@ -29,16 +29,18 @@ public class TeamManager implements TeamOperations {
             writer.newLine();
             writer.write("Losses: " + totalLosses);
             writer.newLine();
-            writer.write("Winning Percentage: " + getWinningPercentage());
+            writer.write(String.format("Winning Percentage: %.2f%%", getWinningPercentage()));
             System.out.println("Stats saved successfully to " + filename);
         } catch (IOException e) {
             System.err.println("Error writing to file: " + e.getMessage());
         }
     }
 
+
     private double getWinningPercentage() {
         int totalGames = totalWins + totalLosses;
         return totalGames==0 ? 0.0 : (double) totalWins / totalGames * 100;
     }
 }
+
 
