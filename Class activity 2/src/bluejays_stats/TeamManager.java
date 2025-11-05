@@ -14,7 +14,6 @@ public class TeamManager implements TeamOperations {
         System.out.println("Wins: " + totalWins);
         System.out.println("Losses: " + totalLosses);
         System.out.printf("Winning Percentage: %.2f%%\n", getWinningPercentage());
-        System.out.printf("Let's go Blue Jays !!!")}
 
     public void displayTeamStats() {
         System.out.println("Team: " + teamName + " | Wins: " + totalWins + " | Losses: " + totalLosses);
@@ -47,6 +46,7 @@ public class TeamManager implements TeamOperations {
         return totalGames==0 ? 0.0 : (double) totalWins / totalGames * 100;
     }
 }
+
 
 
 
