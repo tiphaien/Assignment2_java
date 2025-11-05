@@ -2,7 +2,7 @@ package bluejays_team;
 
 // Subclass demonstrating inheritance and method overriding
 public class Pitcher extends Player {
-    private double era; // earned run average
+    private double era; // ERA = Earned Run Average
     private int speed;  // pitching speed in km/h
 
     // Default constructor
@@ -29,4 +29,13 @@ public class Pitcher extends Player {
     public void showPitcherStats() {
         System.out.println("ERA: " + era + " | Pitch Speed: " + speed + " km/h");
     }
+
+    public double getEra() {
+        return era;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
 }
