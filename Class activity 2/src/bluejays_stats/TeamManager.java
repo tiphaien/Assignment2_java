@@ -37,12 +37,17 @@ public class TeamManager implements TeamOperations {
         }
     }
 
+    public int getTotalGames() {
+        return totalWins + totalLosses;
+    }
+
 
     private double getWinningPercentage() {
         int totalGames = totalWins + totalLosses;
         return totalGames==0 ? 0.0 : (double) totalWins / totalGames * 100;
     }
 }
+
 
 
 
