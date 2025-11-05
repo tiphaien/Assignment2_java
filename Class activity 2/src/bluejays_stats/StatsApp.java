@@ -1,4 +1,19 @@
 package bluejays_stats;
 
 public class StatsApp {
+    public static void main(String[] args) {
+        try {
+            System.out.println("=== Blue Jays Stats App ===");
+
+            TeamManager tm = new TeamManager("Toronto Blue Jays", 89, 73);
+            tm.displayTeamStats();
+
+            // Save to output file
+            tm.saveStatsToFile("bluejays_stats.txt");
+
+        } catch (Exception e) {
+            System.err.println("Error in StatsApp: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
 }
