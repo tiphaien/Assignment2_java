@@ -27,12 +27,11 @@ Demonstrates the main **Object-Oriented Programming (OOP)** principles through e
 
 
 ##  Package 2: `bluejays_stats`
-Focuses on **data management**, **interfaces**, and **file handling operations**.
+This package focuses on **team statistics management**, showing how to use **interfaces**, **file operations**, and **exception handling**.
 
-- **`TeamOperation.java`** → Interface defining actions for managing the team *(abstraction)*  
-- **`TeamManager.java`** → Implements the interface, uses an `ArrayList` to store players, and manages file writing and reading *(interfaces, ArrayList, file I/O, exceptions)*  
-- **`StatsApp.java`** → Main class adding players, saving data to a text file, and reading it back *(try/catch example)*  
-
+- **`TeamOperations.java`** → Interface defining required actions for managing team statistics *(abstraction)*  
+- **`TeamManager.java`** → Implements `TeamOperations`, stores data about the team’s wins and losses, and saves statistics to a text file *(interfaces, file I/O, exceptions)*  
+- **`StatsApp.java`** → Main application that creates a `TeamManager`, displays the stats, and writes them to a file *(try/catch example)*  
 
 ## Project Information
 
